@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Урок №14</title>
+</head>
+
+<body>
+   <div class="main">
+      <div class="wrapper">
+         <div class="flex">
+            <div class="flex__container">
+               <h1 class="flex__title">Flex properties</h1>
+               <div class="flex__subtitle">
+                  <div class="flex__left-subtitle">
+                     flex-direction: row
+                  </div>
+                  <div class="flex__right-subtitle">
+                     flex-direction: column
+                  </div>
+               </div>
+               <div class="flex__caption">display</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body">
+                           <div class="flex__option flex__option--position-2 flex__option--flex-inline">
+                              flex-inline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body">
+                           <div class="flex__option flex__option--position-2 flex__option--flex-inline">
+                              flex-inline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent flex__parent--direction-column">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">flex-wrap</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body">
+                           <div class="flex__option flex__option--position-2 flex__option--wrap">
+                              wrap
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--wrap-reverse">
+                              wrap-reverse
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              nowrap
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent flex__parent--wrap">
+                                 <div class="flex__child flex__child--wrap">1</div>
+                                 <div class="flex__child flex__child--wrap">2</div>
+                                 <div class="flex__child flex__child--wrap">3</div>
+                                 <div class="flex__child flex__child--wrap">4</div>
+                                 <div class="flex__child flex__child--wrap">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body">
+                           <div class="flex__option flex__option--position-2 flex__option--wrap">
+                              wrap
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--wrap-reverse">
+                              wrap-reverse
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              nowrap
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-wrap">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">justify-content</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--center">
+                              center
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--space-between">
+                              space-between
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--space-around">
+                              space-around
+                           </div>
+                           <div class="flex__option flex__option--position-6 flex__option--space-evenly">
+                              space-evenly
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex-start
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--center">
+                              center
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--space-between">
+                              space-between
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--space-around">
+                              space-around
+                           </div>
+                           <div class="flex__option flex__option--position-6 flex__option--space-evenly">
+                              space-evenly
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex-start
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">align-items</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--align-flex-start">
+                              flex-start
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--align-flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--align-centre">
+                              centre
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--align-baseline">
+                              baseline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              stretch
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--align-flex-start">
+                              flex-start
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--align-flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--align-centre">
+                              centre
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--align-baseline">
+                              baseline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              stretch
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">gap</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--gap-15px">
+                              gap: 15px
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--gap-7per">
+                              gap: 7%
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--gap-11per">
+                              gap: 11%
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              gap: 0
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--gap-15px">
+                              gap: 15px
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--gap-7per">
+                              gap: 7%
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--gap-11per">
+                              gap: 11%
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              gap: 0
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">align-self</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--self-flex-start">
+                              flex-start
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--self-flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--self-center">
+                              centre
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--self-baseline">
+                              baseline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              stretch
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--self-flex-start">
+                              flex-start
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--self-flex-end">
+                              flex-end
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--self-center">
+                              centre
+                           </div>
+                           <div class="flex__option flex__option--position-5 flex__option--self-baseline">
+                              baseline
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              stretch
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">flex-basis</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--basis-200px">
+                              flex-basis: 200px
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--basis-50per">
+                              flex-basis: 50%
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex-basis: auto
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">more text</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--basis-100px">
+                              flex-basis: 100px
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--basis-35per">
+                              flex-basis: 35%
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              flex-basis: auto
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">flex-grow / flex-shrink</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--grow-1">
+                              grow: 1
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--shrink-0">
+                              shrink: 0
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--shrink-1">
+                              shrink: 1
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              grow: 0
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child flex__child--basis-150px">basis: 150px</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--grow-1">
+                              grow: 1
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--direction-column-shrink-0">
+                              shrink: 0
+                           </div>
+                           <div class="flex__option flex__option--position-4 flex__option--direction-column-shrink-1">
+                              shrink: 1
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              grow: 0
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column flex__child--basis-50px">basis:
+                                    70px</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex__caption">order</div>
+               <div class="flex__box">
+                  <div class="flex__direction-row">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--order-54321">
+                              order 54321
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--order-35142">
+                              order 35142
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              order 12345
+                           </div>
+                           <div class="flex__area">
+                              <div class="flex__parent">
+                                 <div class="flex__child">1</div>
+                                 <div class="flex__child">2</div>
+                                 <div class="flex__child">3</div>
+                                 <div class="flex__child">4</div>
+                                 <div class="flex__child">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="flex__direction-column">
+                     <div class="flex__example">
+                        <div class="flex__body flex__body--big">
+                           <div class="flex__option flex__option--position-2 flex__option--order-54321">
+                              order 54321
+                           </div>
+                           <div class="flex__option flex__option--position-3 flex__option--order-35142">
+                              order 35142
+                           </div>
+                           <div class="flex__option flex__option--position-1 flex__option--initial">
+                              order 12345
+                           </div>
+                           <div class="flex__area">
+                              <div
+                                 class="flex__parent flex__parent--direction-column flex__parent--direction-column-higher">
+                                 <div class="flex__child flex__child--direction-column">1</div>
+                                 <div class="flex__child flex__child--direction-column">2</div>
+                                 <div class="flex__child flex__child--direction-column">3</div>
+                                 <div class="flex__child flex__child--direction-column">4</div>
+                                 <div class="flex__child flex__child--direction-column">5</div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <h2 class="flex__title-2">Flex good practices</h2>
+               <h3 class="flex__title-2">"gap and percentage basis" hack</h3>
+               <div class="flex-no-gap">
+                  <div class="flex__row">
+                     <div class="flex__column">
+                        <div class="flex__item">25%</div>
+                     </div>
+                     <div class="flex__column">
+                        <div class="flex__item">25%</div>
+                     </div>
+                     <div class="flex__column">
+                        <div class="flex__item">25%</div>
+                     </div>
+                     <div class="flex__column">
+                        <div class="flex__item">25%</div>
+                     </div>
+                  </div>
+               </div>
+               <h3 class="flex__title-2">centering</h3>
+               <div class="flex__centering-parent">
+                  <div class="flex__centering-child">
+                     I'm centered
+                  </div>
+               </div>
+               <h3 class="flex__title-2">mirrored</h3>
+               <div class="flex__mirrored">
+                  <div class="flex__parent-mirrored">
+                     <div class="flex__image-mirrored">
+                        Image here
+                     </div>
+                     <div class="flex__text-mirrored">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores impedit aliquid
+                        commodi voluptate quidem excepturi enim, sed quibusdam maiores molestiae cupiditate autem
+                        consequuntur ut! Numquam quos nisi quibusdam quod.
+                     </div>
+                  </div>
+                  <div class="flex__parent-mirrored flex__parent-mirrored--reverse">
+                     <div class="flex__image-mirrored">
+                        Image here
+                     </div>
+                     <div class="flex__text-mirrored">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores impedit aliquid
+                        commodi voluptate
+                        quidem excepturi enim, sed quibusdam maiores molestiae cupiditate autem consequuntur ut! Numquam
+                        quos nisi
+                        quibusdam quod.
+                     </div>
+                  </div>
+                  <div class="flex__parent-mirrored">
+                     <div class="flex__image-mirrored">
+                        Image here
+                     </div>
+                     <div class="flex__text-mirrored">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores impedit aliquid
+                        commodi voluptate
+                        quidem excepturi enim, sed quibusdam maiores molestiae cupiditate autem consequuntur ut! Numquam
+                        quos nisi
+                        quibusdam quod.
+                     </div>
+                  </div>
+                  <div class="flex__parent-mirrored flex__parent-mirrored--reverse">
+                     <div class="flex__image-mirrored">
+                        Image here
+                     </div>
+                     <div class="flex__text-mirrored">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores impedit aliquid
+                        commodi voluptate
+                        quidem excepturi enim, sed quibusdam maiores molestiae cupiditate autem consequuntur ut! Numquam
+                        quos nisi
+                        quibusdam quod.
+                     </div>
+                  </div>
+               </div>
+               <h3 class="flex__title-2">same button alignment</h3>
+               <div class="flex__alignment">
+                  <div class="flex__card-alignment">
+                     <div class="flex__body-alignment">
+                        <div class="flex__image-alignment">
+                           Image here
+                        </div>
+                        <div class="flex__text-alignment">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid aperiam placeat alias
+                           cupiditate quis dolores itaque? Voluptatibus nihil excepturi exercitationem! Veritatis quia
+                           natus mollitia rem inventore a perferendis fugiat?
+                        </div>
+                        <div class="flex__button-alignment">
+                           Button
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="flex__card-alignment">
+
+                     <div class="flex__body-alignment">
+                        <div class="flex__image-alignment">
+                           Image here
+                        </div>
+                        <div class="flex__text-alignment">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid aperiam placeat alias
+                           cupiditate quis dolores
+                        </div>
+                        <div class="flex__button-alignment">
+                           Button
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="flex__card-alignment">
+
+                     <div class="flex__body-alignment">
+                        <div class="flex__image-alignment">
+                           Image here
+                        </div>
+                        <div class="flex__text-alignment">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid aperiam placeat alias
+                           cupiditate quis dolores itaque? Voluptatibus nihil excepturi exercitationem! Veritatis quia
+                           natus mollitia rem inventore a perferendis fugiat?
+                        </div>
+                        <div class="flex__button-alignment">
+                           Button
+                        </div>
+                     </div>
+
+                  </div>
+                  <div class="flex__card-alignment">
+                     <div class="flex__body-alignment">
+                        <div class="flex__image-alignment">
+                           Image here
+                        </div>
+                        <div class="flex__text-alignment">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid aperiam placeat alias
+                           cupiditate quis dolores itaque? Voluptatibus nihil excepturi exercitationem! Veritatis quia
+                        </div>
+                        <div class="flex__button-alignment">
+                           Button
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
